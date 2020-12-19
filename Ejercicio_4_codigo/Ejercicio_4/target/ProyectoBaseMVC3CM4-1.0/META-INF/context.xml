@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/z_ejercicio_4">
+    
+    <!--Aqui lo que estamos haciendo es definifir la parte para nuestra base de
+    datos con la configuración que requerimos emplear.-->
+    <ResourceLink 
+        name="jdbc/postgres"
+        global="jdbc/postgres"
+        type="javax.sql.DataSource"
+    />
+</Context>
